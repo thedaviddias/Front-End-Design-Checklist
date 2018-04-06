@@ -2,7 +2,7 @@
 <h2 align="center">Front-End Design Checklist</h2>
 
 <p align="center">
-  <em> The Design Checklist for Front-End Developers is an exhaustive list of elements which can help you to analyse and understand web designs to ensure the quality of their Front-End development.</em>
+  <em> The Design Checklist for Front-End Developers is an exhaustive list of elements which can help developers to analyse and understand web designs and ensure the quality of their Front-End development.</em>
 </p>
 
 [![Join the chat at https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist](https://badges.gitter.im/Front-End-Checklist/Front-End-Design-Checklist.svg)](https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist)
