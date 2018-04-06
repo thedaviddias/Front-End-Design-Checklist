@@ -13,11 +13,11 @@
 	* [1.1 Grid system](#11---grid-system)
 	* [1.2 Colors](#12---colors)
 	* [1.3 Fonts and texts](#13---fonts-and-texts)
-	* [1.4 Images / Icons](#14---images-icons)
+	* [1.4 Images / Icons](#14---images--icons)
 	* [1.5 Responsive Web Design](#15---responsive-web-design)
-	* [1.6 Styleguide](#16---styleguide)
+	* [1.6 Style Guide and component approach](#16---style-guide-and-component-approach)
 	* [1.7 Delivery files](#17---delivery-files)
-* **[2. Analysis and pre-work phases](#2---analysis-and-prework-phases)**
+* **[2. Analysis and pre-work phases](#2---analysis-and-pre-work-phases)**
 	* [2.1 Paper analysis](#21---paper-analysis)
 	* [2.2 Pre-development phase](#22---pre-development-phase)
 * **[3. Validation](#3---validation)**
