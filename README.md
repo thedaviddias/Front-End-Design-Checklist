@@ -9,20 +9,20 @@
 [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Table of Contents
-* **[1. Design requirements](#1-design-requirements)**
-	* [1.1 Grid system](#11-grid-system)
-	* [1.2 Colors](#12-colors)
-	* [1.3 Fonts and texts](#13-fonts-and-texts)
-	* [1.4 Images / Icons](#14-images-icons)
-	* [1.5 Responsive Web Design](#15-responsive-web-design)
-	* [1.6 Styleguide](#16-styleguide)
-	* [1.7 Delivery files](#17-delivery-files)
-* **[2. Analysis and pre-work phases](#2-analysis-and-prework-phases)**
-	* [2.1 Paper analysis](#21-paper-analysis)
-	* [2.2 Pre-development phase](#22-pre-development-phase)
-* **[3. Validation](#3-validation)**
-* **[4. Development phase](#4-development-phase)**
-* **[5. Before production](#5-before-production)**
+* **[1. Design requirements](#1---design-requirements)**
+	* [1.1 Grid system](#11---grid-system)
+	* [1.2 Colors](#12---colors)
+	* [1.3 Fonts and texts](#13---fonts-and-texts)
+	* [1.4 Images / Icons](#14---images-icons)
+	* [1.5 Responsive Web Design](#15---responsive-web-design)
+	* [1.6 Styleguide](#16---styleguide)
+	* [1.7 Delivery files](#17---delivery-files)
+* **[2. Analysis and pre-work phases](#2---analysis-and-prework-phases)**
+	* [2.1 Paper analysis](#21---paper-analysis)
+	* [2.2 Pre-development phase](#22---pre-development-phase)
+* **[3. Validation](#3---validation)**
+* **[4. Development phase](#4---development-phase)**
+* **[5. Before production](#5---before-production)**
 
 ---
 
@@ -58,7 +58,7 @@ Designing a website or a webapp requires following some rules and taking into co
 
 * [ ] A **grid** is explicitly provided in the design, and the details of the grid are present in the technical specification (width, gutters, number of columns…). The Web Designer can keep the grid in a transparent layer and use it on all his project.
 	> ℹ️ [Guide Guide][6] is a plugin for Photoshop that can help you easily build your grid.
-	
+
 	> ℹ️ On Sketch, you can use the integrated “[Make Grid Tool][7]” to design your desired grid.
 
 * [ ] **Be familiar with the grid system** you’ll use on your project. Most of the time, some options (like alignment, offsetting, nesting…) are ignored by the developer and tend to be replaced by manual padding or margin unnecessarily.
@@ -100,7 +100,7 @@ __Additional Ressources:__
 
 * [ ] The different **color state** of some elements (like buttons, links, inputs...) are defined and worked in the context of a light or dark background and with a light or a dark text.
 
-* [ ] All or the most important/used **colors are accessible** in the design to allow a fluid navigation on the website/webapp. 
+* [ ] All or the most important/used **colors are accessible** in the design to allow a fluid navigation on the website/webapp.
 
 __Additional Ressources:__
 * 🛠 [WCAG - Contrast Checker](https://contrastchecker.com/)
