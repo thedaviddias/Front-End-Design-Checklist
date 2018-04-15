@@ -13,10 +13,12 @@
 	* [1.1 Grid system](#11---grid-system)
 	* [1.2 Colors](#12---colors)
 	* [1.3 Fonts and texts](#13---fonts-and-texts)
-	* [1.4 Images / Icons](#14---images--icons)
-	* [1.5 Responsive Web Design](#15---responsive-web-design)
-	* [1.6 Style Guide and component approach](#16---style-guide-and-component-approach)
-	* [1.7 Delivery files](#17---delivery-files)
+	* [1.4 Links and navigation](#14---links-and-navigation)
+	* [1.5 Images / Icons](#15---images--icons)
+	* [1.6 Forms and buttons](#16---forms-and-buttons)
+	* [1.7 Responsive Web Design](#17---responsive-web-design)
+	* [1.8 Style Guide and component approach](#18---style-guide-and-component-approach)
+	* [1.9 Delivery files](#19---delivery-files)
 * **[2. Analysis and pre-work phases](#2---analysis-and-pre-work-phases)**
 	* [2.1 Paper analysis](#21---paper-analysis)
 	* [2.2 Pre-development phase](#22---pre-development-phase)
@@ -84,9 +86,9 @@ Designing a website or a webapp requires following some rules and taking into co
 
 __Additional Ressources:__
 
-* [Bootsrap Grid System][8] (v4)
-* [Flexbox Grid][9]
-* [Don't Overthink It Grids | CSS-Tricks][10]
+* 🛠 [Bootsrap Grid System][8] (v4)
+* 🛠 [Flexbox Grid][9]
+* 📖 [Don't Overthink It Grids | CSS-Tricks][10]
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -117,8 +119,15 @@ Fonts are an essential part of every design, they shouldn’t be chosen without 
 
 It is recommended to ask your client to buy these fonts to avoid possible future issues and take into consideration the condition of use. Some webfonts are limited in terms of pageviews and can’t be hosted ([Understanding Webfont Licensing Structures](https://aeolidia.com/understanding-webfont-licensing-structures/)).
 
-* [ ] The fonts for desktop (TTF or OTF in general) and the webfonts, in **WOFF, WOFF2 and TTF format** were provided.
+* [ ] The fonts for desktop (TTF or OTF in general) and the webfonts, in **WOFF, WOFF2 and TTF format** were provided (in a Zip file or given access to the website where they were bought).
 	> ℹ️ TTF format for desktop is not the same than TTF for Web.
+	
+  __Ressources:__	
+	* 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/)
+* [ ] [Fallback font](https://en.wikipedia.org/wiki/Fallback_font) stacks were specified in a document (idealy the Style Guide) to the Front-End Developer.
+
+  __Ressources:__
+  * 📖 [CSS Basics: Fallback Font Stacks for More Robust Web Typography | CSS-Tricks](https://css-tricks.com/css-basics-fallback-font-stacks-robust-web-typography/)
 
 * [ ] The **total weight** of the all webfonts don’t exceed 1-2 Mo (all variants included: italic, bold etc).
 
@@ -127,30 +136,69 @@ It is recommended to ask your client to buy these fonts to avoid possible future
 	> ℹ️ In case of a multilingual website, always ask yourself how the design can react if the text is longer than it was previously define. Remember that Web Designers use to create perfect designs and don’t always think about possible issues or situation with too much text.
 
 __Additional Ressources:__
-* 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/)
 * 📖 [Web Font Optimization  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization)
+* [`font-display` for the Masses | CSS-Tricks](https://css-tricks.com/font-display-masses/)
 
 **[⬆ back to top](#table-of-contents)**
 
-### 1.4 - Images / Icons
+### 1.4 - Links and navigation
+
+* [ ] All links have a default, hover, focus, active and visited state clearly defined (the Style Guide is the best document to specified these).
+* [ ] Alternate views of all navigation states (hover, active/current page).
+
+### 1.5 - Images / Icons
 
 ![Images](/images/images.png)
 
-* [ ] A **favicon image** with at least 512px X 512px is provided in PNG format. The generation of all the others Favicons can be easily done with [online tools](https://realfavicongenerator.net/).
+* [ ] A **favicon image** with at least 512px X 512px is provided in PNG format. The generation of all the others Favicons can be easily done with online tools.
+
+  __Ressources:__
+  * [Favicon Generator for all platforms: iOS, Android, PC/Mac...](https://realfavicongenerator.net/)
 
 * [ ] All icons are provided in **SVG format**, each in the same square dimension, in black and in a separated folder.
 
+  __Ressources:__
+  * 🛠 [SVGOMG - SVGO's Missing GUI](https://jakearchibald.github.io/svgomg/)
+
 * [ ] The **name of each icon** starts with `icon-` and is entirely in lowercase (without any space and using dashes to separate each word).
+
+__Additional Ressources:__
+* 📖 [Essential Image Optimization](https://images.guide/)
 
 **[⬆ back to top](#table-of-contents)**
 
-### 1.5 - Responsive Web Design
+### 1.6 Forms and buttons
+
+* [ ] All forms possess a title that can be used as a legend
+* [ ] An example of the different states of a input fields were provided (at least focus and inactive/disabled state).
+* [ ] All error messages were provided, the position, color is clearly identifiable in the creatives and consistent.
+  __Ressources:__
+  * 📖 [Forms Need Validation – UX Collective](https://uxdesign.cc/forms-need-validation-2ecbccbacea1)
+* [ ] Indicators of required/optional fields are provided.
+* [ ] The primary and secondary buttons are clearly identificable and are used following common practices.
+  __Ressources:__
+  * 📖 [Primary & Secondary Action Buttons – UX Planet](https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150)
+* [ ] An example of the different states of a button were provided (Normal, hover, focused, pressed and inactive state).
+* [ ] Buttons with built-in loading indicators are provided and can be applied to any button.
+
+__Additional Ressources:__
+
+* 📖 [Design Better Forms – UX Collective](https://uxdesign.cc/design-better-forms-96fadca0f49c)
+* 📖 [Design Better Input Fields – UX Collective](https://uxdesign.cc/design-better-input-fields-3d02985a8e24)
+* 📖 [Designing Perfect Text Field: Clarity, Accessibility and User Effort](https://uxplanet.org/designing-perfect-text-field-clarity-accessibility-and-user-effort-d03c1e26004b)
+* 📖 [Button UX Design: Best Practices, Types and States – UX Planet](https://uxplanet.org/button-ux-design-best-practices-types-and-states-647cf4ae0fc6)
+* 📖 [How To Design Better Buttons — Smashing Magazine](https://www.smashingmagazine.com/2016/11/a-quick-guide-for-designing-better-buttons/)
+* 📖 [Buttons in Design Systems – EightShapes – Medium](https://medium.com/eightshapes-llc/buttons-in-design-systems-eac3acf7e23)
+
+**[⬆ back to top](#table-of-contents)**
+
+### 1.7 - Responsive Web Design
 
 ![Responsive](/images/responsive.png)
 
 * [ ] The **mobile version** of the design is provided before or at the same time of the desktop version.
 
-	>  If the “**mobile first**” thinking was not followed by the creative team, some irregularities and inconsistencies may appear between the mobile and the desktop version. Check and flag these issues before starting the development of the project.
+	> If the “**mobile first**” thinking was not followed by the creative team, some irregularities and inconsistencies may appear between the mobile and the desktop version. Check and flag these issues before starting the development of the project.
 * [ ] The **tablet version** of the design in certain cases should be provide too.
 
 ⚠️ *The **pixel perfect** notion is today in a certain way deprecated. Today, it’s impossible to have a design that worked the same facing the multitude of the screen sizes.*
@@ -161,19 +209,21 @@ __Additional Ressources:__
 
 **[⬆ back to top](#table-of-contents)**
 
-### 1.6 - Style Guide and component approach
+### 1.8 - Style Guide and component approach
 
 ![Styleguide](/images/styleguide.png)
 
 * [ ] All components designed on each page were created with the **component based approach**  (Atomic Design). If not, issues can occur in terms of performance, maintainability of the project...
+  __Ressources:__
+  * 📖 [Atomic design][16]
+  * 📖 [6 Reasons for Component-Based UI Development](https://www.tandemseven.com/technology/6-reasons-component-based-ui-development/)
+
 * [ ] A **Style Guide** needs to be provided listing all elements, components, styles, dimensions. Some boilerplates like [UX Power Tools](https://www.uxpower.tools/) can help saving time and keep consistency in the designs.
 
 ⚠️ *In the case where the Style Guide is missing, it's a good practice to build yourself a [living Style Guide](https://github.com/davidhund/styleguide-generators) to faciliate your work. Some CMS like Drupal, for example, have plugins that allow to develop a living Style Guide using [Pattern Lab](https://drupal-pattern-lab.github.io/).*
 
 __Additional Ressources:__
 
-* 📖 [Atomic design][16]
-* 📖 [6 Reasons for Component-Based UI Development](https://www.tandemseven.com/technology/6-reasons-component-based-ui-development/)
 * 📖 [Style Guides – Design + Sketch – Medium](https://medium.com/sketch-app-sources/tagged/style-guides)
 * 📖 [The CodePen Design Patterns and Style Guide](https://codepen.io/guide)
 * 📖 [Lonely Planet Travel Guides and Travel Information](http://rizzo.lonelyplanet.com/styleguide/design-elements/colours)
@@ -185,7 +235,7 @@ Sometimes, the creative team needs to add new pages or modules in an existing pr
 
 **[⬆ back to top](#table-of-contents)**
 
-### 1.7 - Delivery files
+### 1.9 - Delivery files
 
 * [ ] For all websites, the web designer needs to provide at least **2 PSD** (mobile, desktop and eventually tablet) or at least **1 Sketch file** which needs to be delivered with the dimension below (if you have Photoshop CC 2015 and above, I recommend using artboards).
 
