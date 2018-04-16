@@ -5,8 +5,7 @@
   <em> The Design Checklist for Front-End Developers is an exhaustive list of elements which can help developers to analyse and understand web designs and ensure the quality of their Front-End development.</em>
 </p>
 
-[![Join the chat at https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist](https://badges.gitter.im/Front-End-Checklist/Front-End-Design-Checklist.svg)](https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist)
-[![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) [![Join the chat at https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist](https://badges.gitter.im/Front-End-Checklist/Front-End-Design-Checklist.svg)](https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist) [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Table of Contents
 * **[1. Design requirements](#1---design-requirements)**
@@ -28,7 +27,7 @@
 
 ---
 
-> The **Design Checklist for Front-End Developers** is an exhaustive list of elements which Web Designers and Front-End Developers need to take into consideration to faciliate their collaboration. The following elements are a mix between known practices and new elements based on a long experience analysing web designs.
+> The **Design Checklist for Front-End Developers** is an exhaustive list of elements which Web Designers and Front-End Developers need to take into consideration to facilitate their collaboration. The following elements are a mix between known practices and new elements based on a long experience analysing web designs.
 
 In case you are looking for a list of all elements you need to have/to test before launching your site/HTML page to production, take a look on the → [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist).
 
@@ -128,6 +127,7 @@ It is recommended to ask your client to buy these fonts to avoid possible future
 
   __Ressources:__
   * 📖 [CSS Basics: Fallback Font Stacks for More Robust Web Typography | CSS-Tricks](https://css-tricks.com/css-basics-fallback-font-stacks-robust-web-typography/)
+  * [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
 
 * [ ] The **total weight** of the all webfonts don’t exceed 1-2 Mo (all variants included: italic, bold etc).
 
@@ -361,6 +361,8 @@ This project exists thanks to all the people who contribute. [Contribute](.githu
 ## License
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+All icons are provided by [Icons8](https://icons8.com/)
 
 **[⬆ back to top](#table-of-contents)**
 
