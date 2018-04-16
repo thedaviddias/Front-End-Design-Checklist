@@ -143,6 +143,8 @@ __Additional Resources:__
 
 ### 1.4 - Links and navigation
 
+![Links and navigation](/images/links.png)
+
 * [ ] All **links have a default, hover, focus, active and visited state** clearly defined (the Style Guide is the best document to specified these).
 * [ ] Alternate views of all navigation states (hover, active/current page).
 
@@ -168,6 +170,8 @@ __Additional Resources:__
 **[⬆ back to top](#table-of-contents)**
 
 ### 1.6 Forms and buttons
+
+![Forms](/images/form.png)
 
 * [ ] All forms possess a title that can be used as a legend
 * [ ] An example of the **different states of all input fields** were provided (at least focus and inactive/disabled state).
@@ -237,6 +241,8 @@ Sometimes, the creative team needs to add new pages or modules in an existing pr
 **[⬆ back to top](#table-of-contents)**
 
 ### 1.9 - Delivery files
+
+![Delivery files](/images/delivery-files.png)
 
 * [ ] For all websites, the web designer needs to provide at least **2 PSD** (mobile, desktop and eventually tablet) or at least **1 Sketch file** which needs to be delivered with the dimension below (if you have Photoshop CC 2015 and above, I recommend using artboards).
 
