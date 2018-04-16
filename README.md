@@ -34,7 +34,7 @@ In case you are looking for a list of all elements you need to have/to test befo
 
 ## How to use the Design Checklist?
 
-When comes the moment where developers discover new web designs, before converting them to code, some important elements may be missing. The Front-End Design Checklist is a tool for Front-End developers and Web Designers which aim to help both to work in a seamlesssly way.
+When comes the moment where developers discover new web designs, before converting them to code, some important elements may be missing. The Front-End Design Checklist is a tool for Front-End developers and Web Designers which aim to help both to work in a seamlessly way.
 
 You can share that checklist to Web Designers to ensure time will be saved at the delivery time or you can use it to review all elements delivered by the creative team and ensure everything is correct before digging into the code integration.
 
@@ -83,9 +83,9 @@ Designing a website or a webapp requires following some rules and taking into co
 
 ⚠️ *If you want to ensure that the grid and the width of the devices are respected, you may want to generate yourself a PSD template and that you will send it to the Web Designer.*
 
-__Additional Ressources:__
+__Additional Resources:__
 
-* 🛠 [Bootsrap Grid System][8] (v4)
+* 🛠 [Bootstrap Grid System][8] (v4)
 * 🛠 [Flexbox Grid][9]
 * 📖 [Don't Overthink It Grids | CSS-Tricks][10]
 
@@ -103,7 +103,7 @@ __Additional Ressources:__
 
 * [ ] All or the most important/used **colors are accessible** in the design to allow a fluid navigation on the website/webapp.
 
-__Additional Ressources:__
+__Additional Resources:__
 * 🛠 [WCAG - Contrast Checker](https://contrastchecker.com/)
 * 🛠 [Color Safe - accessible web color combinations](http://colorsafe.co/)
 * 🛠 [Coolors.co - The super fast color schemes generator](https://coolors.co/)
@@ -120,12 +120,12 @@ It is recommended to ask your client to buy these fonts to avoid possible future
 
 * [ ] The fonts for desktop (TTF or OTF in general) and the webfonts, in **WOFF, WOFF2 and TTF format** were provided (in a Zip file or given access to the website where they were bought).
 	> ℹ️ TTF format for desktop is not the same than TTF for Web.
-	
-  __Ressources:__	
-	* 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/)
-* [ ] [Fallback font](https://en.wikipedia.org/wiki/Fallback_font) stacks were specified in a document (idealy the Style Guide) to the Front-End Developer.
 
-  __Ressources:__
+  __Resources:__
+	* 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/)
+* [ ] [Fallback font](https://en.wikipedia.org/wiki/Fallback_font) stacks were specified in a document (ideally the Style Guide) to the Front-End Developer.
+
+  __Resources:__
   * 📖 [CSS Basics: Fallback Font Stacks for More Robust Web Typography | CSS-Tricks](https://css-tricks.com/css-basics-fallback-font-stacks-robust-web-typography/)
   * [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
 
@@ -135,7 +135,7 @@ It is recommended to ask your client to buy these fonts to avoid possible future
 
 	> ℹ️ In case of a multilingual website, always ask yourself how the design can react if the text is longer than it was previously define. Remember that Web Designers use to create perfect designs and don’t always think about possible issues or situation with too much text.
 
-__Additional Ressources:__
+__Additional Resources:__
 * 📖 [Web Font Optimization  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization)
 * [`font-display` for the Masses | CSS-Tricks](https://css-tricks.com/font-display-masses/)
 
@@ -152,17 +152,17 @@ __Additional Ressources:__
 
 * [ ] A **favicon image** with at least 512px X 512px is provided in PNG format. The generation of all the others Favicons can be easily done with online tools.
 
-  __Ressources:__
+  __Resources:__
   * [Favicon Generator for all platforms: iOS, Android, PC/Mac...](https://realfavicongenerator.net/)
 
 * [ ] All icons are provided in **SVG format**, each in the same square dimension, in black and in a separated folder.
 
-  __Ressources:__
+  __Resources:__
   * 🛠 [SVGOMG - SVGO's Missing GUI](https://jakearchibald.github.io/svgomg/)
 
 * [ ] The **name of each icon** starts with `icon-` and is entirely in lowercase (without any space and using dashes to separate each word).
 
-__Additional Ressources:__
+__Additional Resources:__
 * 📖 [Essential Image Optimization](https://images.guide/)
 
 **[⬆ back to top](#table-of-contents)**
@@ -172,16 +172,16 @@ __Additional Ressources:__
 * [ ] All forms possess a title that can be used as a legend
 * [ ] An example of the **different states of all input fields** were provided (at least focus and inactive/disabled state).
 * [ ] **All error messages** were provided, the text (eventually in a separated document) the position and the color are clearly identifiable in the creatives and consistent. Some messages should be different according to the error.
-  __Ressources:__
+  __Resources:__
   * 📖 [Forms Need Validation – UX Collective](https://uxdesign.cc/forms-need-validation-2ecbccbacea1)
 * [ ] **Indicators of required/optional** fields are provided.
-* [ ] The **primary and secondary buttons** are clearly identificable and are used following common practices.
-  __Ressources:__
+* [ ] The **primary and secondary buttons** are clearly identifiable and are used following common practices.
+  __Resources:__
   * 📖 [Primary & Secondary Action Buttons – UX Planet](https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150)
 * [ ] An example of the **different states of a button** were provided (Normal, hover, focused, pressed and inactive state).
 * [ ] Buttons with built-in **loading indicators** are provided and can be applied to any button.
 
-__Additional Ressources:__
+__Additional Resources:__
 
 * 📖 [Design Better Forms – UX Collective](https://uxdesign.cc/design-better-forms-96fadca0f49c)
 * 📖 [Design Better Input Fields – UX Collective](https://uxdesign.cc/design-better-input-fields-3d02985a8e24)
@@ -203,7 +203,7 @@ __Additional Ressources:__
 
 ⚠️ *The **pixel perfect** notion is today in a certain way deprecated. Today, it’s impossible to have a design that worked the same facing the multitude of the screen sizes.*
 
-__Additional Ressources:__
+__Additional Resources:__
 
 * 📖 [Official Google Webmaster Central Blog: Mobile-first Indexing](https://webmasters.googleblog.com/2016/11/mobile-first-indexing.html)
 
@@ -215,7 +215,7 @@ __Additional Ressources:__
 
 * [ ] All components designed on each page were created with the **component based approach**  (Atomic Design). If not, issues can occur in terms of performance, maintainability of the project...
 
-  __Ressources:__
+  __Resources:__
   * 📖 [Atomic design][16]
   * 📖 [6 Reasons for Component-Based UI Development](https://www.tandemseven.com/technology/6-reasons-component-based-ui-development/)
 
@@ -223,7 +223,7 @@ __Additional Ressources:__
 
 ⚠️ *In the case where the Style Guide is missing, it's a good practice to build yourself a [living Style Guide](https://github.com/davidhund/styleguide-generators) to faciliate your work. Some CMS like Drupal, for example, have plugins that allow to develop a living Style Guide using [Pattern Lab](https://drupal-pattern-lab.github.io/).*
 
-__Additional Ressources:__
+__Additional Resources:__
 
 * 📖 [Style Guides – Design + Sketch – Medium](https://medium.com/sketch-app-sources/tagged/style-guides)
 * 📖 [The CodePen Design Patterns and Style Guide](https://codepen.io/guide)
@@ -247,7 +247,7 @@ Sometimes, the creative team needs to add new pages or modules in an existing pr
 * [ ] The **404 error** (and eventually the page 500 error) page were designed.
 * [ ] All **popins, popups and alert boxes** were designed and can be enable throw layers of compositions.
 
-__Additional Ressources:__
+__Additional Resources:__
 
 * 📖 [Photoshop Etiquette: A Guide to Discernible Web Design](http://photoshopetiquette.com/)
 
@@ -298,7 +298,7 @@ I can’t imagine a better way to start than analysing creatives on a paper with
 
 * [ ] According to the specifications, **plugins needed were defined** in an early stage. Having a pre-list of possible plugins before starting the development can help the developer to stay focus and not spend too much time in doing research during the development phase. Obviously, some plugins may not perfectly fit and will be changed accordingly.
 
-__Additional Ressources:__
+__Additional Resources:__
 
 * 🛠 [Awesome JS][22]
 * 🛠 [BestOfJS][23]
