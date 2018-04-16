@@ -346,7 +346,8 @@ The Front-End Design Checklist will be soon available in other languages. Don't 
 
 If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
 
-* [Chat on Gitter]([https://gitter.im/Front-End-Checklist][28]/Front-End-Design-Checklist?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+* [Give an UP on Product Hunt](https://www.producthunt.com/posts/front-end-design-checklist)
+* [Chat on Gitter](https://gitter.im/Front-End-Checklist][28]/Front-End-Design-Checklist?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 * [Facebook](https://www.facebook.com/frontenddesignchecklist/)
 * [Twitter](https://twitter.com/thedaviddias)
 
@@ -356,7 +357,7 @@ If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
 
 ## Contributors
 
-This project exists thanks to all the people who contribute. [Contribute](.github/CONTRIBUTING.md)
+This project exists thanks to all the people who [contribute!](.github/CONTRIBUTING.md)
 
 ## License
 
