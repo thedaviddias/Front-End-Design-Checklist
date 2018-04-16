@@ -143,7 +143,7 @@ __Additional Ressources:__
 
 ### 1.4 - Links and navigation
 
-* [ ] All links have a default, hover, focus, active and visited state clearly defined (the Style Guide is the best document to specified these).
+* [ ] All **links have a default, hover, focus, active and visited state** clearly defined (the Style Guide is the best document to specified these).
 * [ ] Alternate views of all navigation states (hover, active/current page).
 
 ### 1.5 - Images / Icons
@@ -170,16 +170,16 @@ __Additional Ressources:__
 ### 1.6 Forms and buttons
 
 * [ ] All forms possess a title that can be used as a legend
-* [ ] An example of the different states of a input fields were provided (at least focus and inactive/disabled state).
-* [ ] All error messages were provided, the position, color is clearly identifiable in the creatives and consistent.
+* [ ] An example of the **different states of all input fields** were provided (at least focus and inactive/disabled state).
+* [ ] **All error messages** were provided, the text (eventually in a separated document) the position and the color are clearly identifiable in the creatives and consistent. Some messages should be different according to the error.
   __Ressources:__
   * 📖 [Forms Need Validation – UX Collective](https://uxdesign.cc/forms-need-validation-2ecbccbacea1)
-* [ ] Indicators of required/optional fields are provided.
-* [ ] The primary and secondary buttons are clearly identificable and are used following common practices.
+* [ ] **Indicators of required/optional** fields are provided.
+* [ ] The **primary and secondary buttons** are clearly identificable and are used following common practices.
   __Ressources:__
   * 📖 [Primary & Secondary Action Buttons – UX Planet](https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150)
-* [ ] An example of the different states of a button were provided (Normal, hover, focused, pressed and inactive state).
-* [ ] Buttons with built-in loading indicators are provided and can be applied to any button.
+* [ ] An example of the **different states of a button** were provided (Normal, hover, focused, pressed and inactive state).
+* [ ] Buttons with built-in **loading indicators** are provided and can be applied to any button.
 
 __Additional Ressources:__
 
@@ -214,6 +214,7 @@ __Additional Ressources:__
 ![Styleguide](/images/styleguide.png)
 
 * [ ] All components designed on each page were created with the **component based approach**  (Atomic Design). If not, issues can occur in terms of performance, maintainability of the project...
+
   __Ressources:__
   * 📖 [Atomic design][16]
   * 📖 [6 Reasons for Component-Based UI Development](https://www.tandemseven.com/technology/6-reasons-component-based-ui-development/)
@@ -299,8 +300,8 @@ I can’t imagine a better way to start than analysing creatives on a paper with
 
 __Additional Ressources:__
 
-* [Awesome JS][22]
-* [BestOfJS][23]
+* 🛠 [Awesome JS][22]
+* 🛠 [BestOfJS][23]
 
 
 **[⬆ back to top](#table-of-contents)**
