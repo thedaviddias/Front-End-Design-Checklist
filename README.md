@@ -171,7 +171,7 @@ __Additional Resources:__
 
 ### 1.6 Forms and buttons
 
-![Forms](/images/form.png)
+![Forms](/images/forms.png)
 
 * [ ] All forms possess a title that can be used as a legend
 * [ ] An example of the **different states of all input fields** were provided (at least focus and inactive/disabled state).
