@@ -129,7 +129,7 @@ It is recommended to ask your client to buy these fonts to avoid possible future
   * 📖 [CSS Basics: Fallback Font Stacks for More Robust Web Typography | CSS-Tricks](https://css-tricks.com/css-basics-fallback-font-stacks-robust-web-typography/)
   * [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
 
-* [ ] The **total weight** of the all webfonts don’t exceed 1-2 Mo (all variants included: italic, bold etc).
+* [ ] The **total weight** of the all webfonts don’t exceed 1-2 Mb (all variants included: italic, bold etc).
 
 * [ ] As far as possible, **all texts are provided in the the proper language** instead of dummy texts in English (Lorem Ipsum and affiliates).
 
