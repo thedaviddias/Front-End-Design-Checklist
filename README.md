@@ -346,7 +346,9 @@ Before launching your website, be sure to review all your pages using the [Front
 
 ## Translations
 
-The Front-End Design Checklist will be soon available in other languages. Don't hesitate if you want to help for forking this repository and start with a translation in your language!
+The Front-End Checklist is also available in other languages. Thanks for all translators and their awesome work!
+
+* 🇨🇳 Chinese: [JohnsenZhou/Front-End-Design-Checklist](https://github.com/JohnsenZhou/Front-End-Design-Checklist)
 
 ## Support
 
