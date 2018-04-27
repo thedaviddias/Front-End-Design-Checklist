@@ -131,7 +131,7 @@ It is recommended to ask your client to buy these fonts to avoid possible future
 
 * [ ] The **total weight** of the all webfonts don’t exceed 1-2 Mb (all variants included: italic, bold etc).
 
-* [ ] As far as possible, **all texts are provided in the the proper language** instead of dummy texts in English (Lorem Ipsum and affiliates).
+* [ ] As far as possible, **all texts are provided in the proper language** instead of dummy texts in English (Lorem Ipsum and affiliates).
 
 	> ℹ️ In case of a multilingual website, always ask yourself how the design can react if the text is longer than it was previously define. Remember that Web Designers use to create perfect designs and don’t always think about possible issues or situation with too much text.
 
@@ -225,7 +225,7 @@ __Additional Resources:__
 
 * [ ] A **Style Guide** needs to be provided listing all elements, components, styles, dimensions. Some boilerplates like [UX Power Tools](https://www.uxpower.tools/) can help saving time and keep consistency in the designs.
 
-⚠️ *In the case where the Style Guide is missing, it's a good practice to build yourself a [living Style Guide](https://github.com/davidhund/styleguide-generators) to faciliate your work. Some CMS like Drupal, for example, have plugins that allow to develop a living Style Guide using [Pattern Lab](https://drupal-pattern-lab.github.io/).*
+⚠️ *In the case where the Style Guide is missing, it's a good practice to build yourself a [living Style Guide](https://github.com/davidhund/styleguide-generators) to facilitate your work. Some CMS like Drupal, for example, have plugins that allow to develop a living Style Guide using [Pattern Lab](https://drupal-pattern-lab.github.io/).*
 
 __Additional Resources:__
 
@@ -248,7 +248,7 @@ Sometimes, the creative team needs to add new pages or modules in an existing pr
 
 	> ℹ️ Some web designers could eventually create multiple PSD corresponding to each components used and import them in a single PSD as “smart layer”. In that case, you’ll have multiple PSD linked to one or two files. In the case of Sketch, since the **libraries** exist since version 47, it is possible to link multiples files with symbols ……..
 
-* [ ] The **creative files are cleaned** before delivering to developers (empty and uneccessary layer needs to be removed to avoid large files).
+* [ ] The **creative files are cleaned** before delivering to developers (empty and unnecessary layer needs to be removed to avoid large files).
 
 * [ ] The **404 error** (and eventually the page 500 error) page were designed.
 * [ ] All **popins, popups and alert boxes** were designed and can be enable throw layers of compositions.
@@ -286,7 +286,7 @@ Before starting the analysis and the pre-work phases and after receiving the cre
 
 It is recommended **printing** some (or all) of the pages you have on an A3 format (or A4 if you don’t have this format). Because of the height of the page. you’ll probably need to print some designs on multiple pages.
 
-I can’t imagine a better way to start than analysing creatives on a paper with a pencil (or different colourful pencils choosed to highlight different type of informations).
+I can’t imagine a better way to start than analysing creatives on a paper with a pencil (or different colourful pencils chosen to highlight different type of information).
 
 1. Define the **structure of the pages**, the headers, the sections, the articles, main, footer outlining these on at least one printed page.
 
@@ -334,7 +334,7 @@ The validation phase is when everything seems to be ready to be integrated. The 
     └── layout
 ```
 
-* [ ] **A naming convention is used** like adding prefixes to diferenciate types of images, all images used for background can be prefixed by `bg-`, icons by `icon-`, hero banners by `hero-` or `banner-` and so on.
+* [ ] **A naming convention is used** like adding prefixes to differentiate types of images, all images used for background can be prefixed by `bg-`, icons by `icon-`, hero banners by `hero-` or `banner-` and so on.
 
 ## 5. - Before production
 
