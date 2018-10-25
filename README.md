@@ -138,6 +138,7 @@ It is recommended to ask your client to buy these fonts to avoid possible future
 __Additional Resources:__
 * 📖 [Web Font Optimization  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization)
 * [`font-display` for the Masses | CSS-Tricks](https://css-tricks.com/font-display-masses/)
+* [Rhythm in Typography | improve legibility, readability, and visual hierarchy](https://betterwebtype.com/rhythm-in-web-typography)
 
 **[⬆ back to top](#table-of-contents)**
 
