@@ -1,14 +1,14 @@
 ![Front-End Design Checklist](/images/front-end-design-checklist-banner.jpg)
-<h2 align="center">Front-End Design Checklist</h2>
+<h2 align="center">Checklista projektowania Frontend</h2>
 
 <p align="center">
-  <em> The Design Checklist for Front-End Developers is an exhaustive list of elements which can help developers to analyse and understand web designs and ensure the quality of their Front-End development.</em>
+  <em> Checklista projektowania dla programistów Frontend to wyczerpująca lista elementów, które mogą pomóc programistom w analizie i zrozumieniu projektów internetowych oraz w zapewnieniu jakości ich rozwoju.</em>
 </p>
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) [![Join the chat at https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist](https://badges.gitter.im/Front-End-Checklist/Front-End-Design-Checklist.svg)](https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist) [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-## Table of Contents
-* **[1. Design requirements](#1---design-requirements)**
+## Spis treści
+* **[1. Wymagania projektowe](#1---wymagania-projektowe)**
 	* [1.1 Grid system](#11---grid-system)
 	* [1.2 Colors](#12---colors)
 	* [1.3 Fonts and texts](#13---fonts-and-texts)
@@ -27,166 +27,168 @@
 
 ---
 
-> The **Design Checklist for Front-End Developers** is an exhaustive list of elements which Web Designers and Front-End Developers need to take into consideration to facilitate their collaboration. The following elements are a mix between known practices and new elements based on a long experience analysing web designs.
+> **Checklista projektowania dla programistów Frontend** to wyczerpująca lista elementów, które projektanci stron internetowych i programiści muszą wziąć pod uwagę, aby ułatwić sobie współpracę. Poniższe elementy stanowią połączenie znanych praktyk z nowymi elementami w oparciu o wieloletnie doświadczenie w analizowaniu projektów internetowych.
 
-In case you are looking for a list of all elements you need to have/to test before launching your site/HTML page to production, take a look on the → [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist).
-
-
-## How to use the Design Checklist?
-
-When comes the moment where developers discover new web designs, before converting them to code, some important elements may be missing. The Front-End Design Checklist is a tool for Front-End developers and Web Designers which aim to help both to work in a seamlessly way.
-
-You can share that checklist to Web Designers to ensure time will be saved at the delivery time or you can use it to review all elements delivered by the creative team and ensure everything is correct before digging into the code integration.
+Jeśli szukasz listy wszystkich elementów, które musisz mieć/przetestować przed uruchomieniem witryny/strony HTML do produkcji, spójrz na → [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist).
 
 
-## Why you need to use the Design Checklist?
+## Jak korzystać z Checklisty projektowania?
 
-* Ensure all points are taken into consideration by the Creative Team
-* Having a document where Web Designers and Developers can rely to ensure a better communication and coherence in the way they interact.
-* Because it's easy to forget some important elements when you are pushed by short timelines
-* Avoid discovering issues after the creative team is already working on another project.
-* To show the complementary work between a Web Designer and a Front-End Developer
+Kiedy przychodzi moment, w którym programiści odkrywają nowe projekty stron internetowych, zanim przekonwertują je na kod, może brakować niektórych ważnych elementów. Lista kontrolna projektowania Frontend to narzędzie dla programistów Frontend i projektantów stron internetowych, których celem jest pomoc im obu w płynnej pracy.
+
+Możesz udostępnić tę listę kontrolną projektantom stron internetowych, aby zapewnić oszczędność czasu w czasie dostawy, lub możesz użyć jej do przejrzenia wszystkich elementów dostarczonych przez kreatywny zespół i upewnić się, że wszystko jest poprawne przed przystąpieniem do integracji kodu.
+
+
+## Dlaczego powinieneś skorzystać z Checklisty projektowania?
+
+* Upewnij się, że kreatywny zespół bierze pod uwagę wszystkie punkty
+* Posiadanie dokumentu, na którym mogą polegać projektanci i programiści, aby zapewnić lepszą komunikację i spójność w interakcji.
+* Ponieważ łatwo jest zapomnieć o niektórych ważnych elementach, gdy gonią cię krótkie terminy
+* Unikanie odkrywania problemów, gdy kreatywny zespół już pracuje nad innym projektem.
+* Aby pokazać komplementarną pracę między projektantem stron internetowych, a programistą Frontend
 
 ---
 
-## 1. - Design requirements
+## 1. - Wymagania projektowe
 
-Designing a website or a webapp requires following some rules and taking into consideration that the project is not only a graphic project but a web project too. The next sections are crucial for any web project.
+Projektowanie strony internetowej lub aplikacji internetowej wymaga przestrzegania pewnych zasad i wzięcia pod uwagę, że projekt to nie tylko projekt graficzny, ale także projekt internetowy. Kolejne sekcje są kluczowe dla każdego projektu internetowego.
 
 ### 1.1 - Grid system
 
 ![Grid system](/images/grid-system.png)
 
-* [ ] A **grid** is explicitly provided in the design, and the details of the grid are present in the technical specification (width, gutters, number of columns…). The Web Designer can keep the grid in a transparent layer and use it on all his project.
-	> ℹ️ [Guide Guide][6] is a plugin for Photoshop that can help you easily build your grid.
+* [ ] **Grid** jest wyraźnie określone w projekcie, a szczegóły siatki są zawarte w specyfikacji technicznej (szerokość, rynny, liczba kolumn…). Projektant stron internetowych może utrzymać siatkę w przezroczystej warstwie i używać jej we wszystkich swoich projektach.
+	> ℹ️ [Guide Guide][6] to wtyczka do programu Photoshop, która może pomóc w łatwym budowaniu siatki.
 
-	> ℹ️ On Sketch, you can use the integrated “[Make Grid Tool][7]” to design your desired grid.
+	> ℹ️ W Sketch możesz używać zintegrowanego “[Make Grid Tool][7]” aby zaprojektować pożądaną siatkę.
 
-* [ ] **Be familiar with the grid system** you’ll use on your project. Most of the time, some options (like alignment, offsetting, nesting…) are ignored by the developer and tend to be replaced by manual padding or margin unnecessarily.
-* [ ] Before working on each components of your website, you can **build every templates** used in the creatives only with the grid classes. Building the structure before everything else, will facilitate your work afterwards.
+* [ ] **Zapoznaj się z systemem siatki**, który będziesz używać w swoim projekcie. Przez większość czasu niektóre opcje (takie jak wyrównanie, przesunięcie, zagnieżdżanie…) są ignorowane przez programistę i zwykle są zastępowane przez ręczne wypełnianie lub marginesowane niepotrzebnie.
+* [ ] Przed przystąpieniem do pracy nad każdym komponentem witryny możesz **budować wszystkie szablony** używane w creatives tylko z klasami siatki. Budowanie konstrukcji przede wszystkim ułatwi ci późniejszą pracę.
 
 ```html
 <div class="container">
   <div class="row">
     <div class="col-sm">
-      <!-- Let empty at first -->
+      <!-- Najpierw opróżnij -->
     </div>
     <div class="col-sm">
-      <!-- Let empty at first -->
+      <!-- Najpierw opróżnij -->
     </div>
     <div class="col-sm">
-      <!-- Let empty at first -->
+      <!-- Najpierw opróżnij -->
     </div>
   </div>
 </div>
 ```
 
-⚠️ *If you want to ensure that the grid and the width of the devices are respected, you may want to generate yourself a PSD template and that you will send it to the Web Designer.*
+⚠️ *Jeśli chcesz upewnić się, że siatka i szerokość urządzeń są przestrzegane, możesz wygenerować sobie szablon PSD i wysłać go do projektanta stron internetowych.*
 
-__Additional Resources:__
+__Dodatkowe materiały:__
 
 * 🛠 [Bootstrap Grid System][8] (v4)
 * 🛠 [Flexbox Grid][9]
 * 📖 [Don't Overthink It Grids | CSS-Tricks][10]
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ powrót do góry](#spis-treści)**
 
-### 1.2 - Colors
+### 1.2 - Kolory
 
 ![Colors](/images/colors.png)
 
-* [ ] **All colors used in the creatives are named** ($gray-light, $gray-dark, $green) or accordingly with their use ($body-background, $body-copy, $text-paragraph…). They can be exported in an [ACO file][11] (if use Photoshop or on a symbol page for Sketch) and shared with the developers.
+* [ ] **Wszystkie kolory użyte w creatives są nazwane** ($gray-light, $gray-dark, $green) lub odpowiednio z ich użyciem
+ ($body-background, $body-copy, $text-paragraph…). Można je wyeksportować w pliku [ACO][11] (jeśli korzystasz z Photoshopa lub na stronie symboli dla Sketch) i udostępniać programistom.
 
 ![Color Swatches](/images/color-swatches.jpg)
 
-* [ ] The different **color state** of some elements (like buttons, links, inputs...) are defined and worked in the context of a light or dark background and with a light or a dark text.
+* [ ] Różny **stan kolorów** niektórych elementów (takich jak przyciski, odnośniki, wejścia...) są zdefiniowane i działają w kontekście jasnego lub ciemnego tła oraz jasnego lub ciemnego tekstu.
 
-* [ ] All or the most important/used **colors are accessible** in the design to allow a fluid navigation on the website/webapp.
+* [ ] Wszystkie lub najważniejsze/używane **kolory są dostępne** w projekcie, aby umożliwić płynną nawigację na stronie internetowej/aplikacji webowej.
 
-__Additional Resources:__
+__Dodatkowe materiały:__
 * 🛠 [WCAG - Contrast Checker](https://contrastchecker.com/)
 * 🛠 [Color Safe - accessible web color combinations](http://colorsafe.co/)
 * 🛠 [Coolors.co - The super fast color schemes generator](https://coolors.co/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ powrót do góry](#spis-treści)**
 
-### 1.3 - Fonts and texts
+### 1.3 - Czcionki i teksty
 
 ![Fonts](/images/fonts.png)
 
-Fonts are an essential part of every design, they shouldn’t be chosen without discernment. Choosing the wrong font for a project could have financial and legal impacts.
+Czcionki są istotną częścią każdego projektu, nie należy ich wybierać bez rozeznania. Wybór niewłaściwej czcionki dla projektu może mieć skutki finansowe i prawne.
 
-It is recommended to ask your client to buy these fonts to avoid possible future issues and take into consideration the condition of use. Some webfonts are limited in terms of pageviews and can’t be hosted ([Understanding Webfont Licensing Structures](https://aeolidia.com/understanding-webfont-licensing-structures/)).
+Zaleca się, aby poprosić klienta o zakup tych czcionek, aby uniknąć potencjalnych problemów w przyszłości i wziąć pod uwagę warunki użytkowania. Niektóre strony są ograniczone pod względem odsłon i nie mogą być hostowane ([Understanding Webfont Licensing Structures](https://aeolidia.com/understanding-webfont-licensing-structures/)).
 
-* [ ] The fonts for desktop (TTF or OTF in general) and the webfonts, in **WOFF, WOFF2 and TTF format** were provided (in a Zip file or given access to the website where they were bought).
-	> ℹ️ TTF format for desktop is not the same than TTF for Web.
+* [ ] Dostarczono czcionki dla komputerów stacjonarnych (ogólnie TTF lub OTF) i stron internetowych, w formacie **WOFF, WOFF2 i TTF** (w pliku Zip lub dano dostęp do strony internetowej, na której zostały zakupione).
+	> ℹ️ Format TTF dla desktopu nie jest taki sam jak format TTF dla webowych.
 
-  __Resources:__
+  __Materiały:__
 	* 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/)
-* [ ] [Fallback font](https://en.wikipedia.org/wiki/Fallback_font) stacks were specified in a document (ideally the Style Guide) to the Front-End Developer.
+* [ ] [Fallback font](https://en.wikipedia.org/wiki/Fallback_font) zostały określone w dokumencie (najlepiej w Przewodniku po stylach) dla programisty Frontend.
 
-  __Resources:__
+  __Materiały:__
   * 📖 [CSS Basics: Fallback Font Stacks for More Robust Web Typography | CSS-Tricks](https://css-tricks.com/css-basics-fallback-font-stacks-robust-web-typography/)
   * [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
 
-* [ ] The **total weight** of the all webfonts don’t exceed 1-2 Mb (all variants included: italic, bold etc).
+* [ ] **Waga całkowita** wszystkich czcionek webfonts nie przekracza 1-2 Mb (wszystkie warianty zawierają: kursywę, pogrubienie itp.).
 
-* [ ] As far as possible, **all texts are provided in the proper language** instead of dummy texts in English (Lorem Ipsum and affiliates).
+* [ ] W miarę możliwości **wszystkie teksty są dostarczane w odpowiednim języku** zamiast tekstów zastępczych w języku angielskim (Lorem Ipsum i podobne).
 
-	> ℹ️ In case of a multilingual website, always ask yourself how the design can react if the text is longer than it was previously define. Remember that Web Designers use to create perfect designs and don’t always think about possible issues or situation with too much text.
-
-__Additional Resources:__
+	> ℹ️ W przypadku wielojęzycznej strony internetowej zawsze zadaj sobie pytanie, jak projekt może zareagować, jeśli tekst jest dłuższy niż wcześniej zdefiniowany. Pamiętaj, że projektanci stron internetowych używają do tworzenia doskonałych projektów i nie zawsze myślą o możliwych problemach lub sytuacji ze zbyt dużą ilością tekstu.
+	
+__Dodatkowe materiały:__
 * 📖 [Web Font Optimization  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization)
 * [`font-display` for the Masses | CSS-Tricks](https://css-tricks.com/font-display-masses/)
 * [Rhythm in Typography | improve legibility, readability, and visual hierarchy](https://betterwebtype.com/rhythm-in-web-typography)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ powrót do góry](#spis-treści)**
 
-### 1.4 - Links and navigation
+### 1.4 - Linki i nawigacja
 
 ![Links and navigation](/images/links.png)
 
-* [ ] All **links have a default, hover, focus, active and visited state** clearly defined (the Style Guide is the best document to specified these).
-* [ ] Alternate views of all navigation states (hover, active/current page).
+* [ ] Wszystkie **linki mają stan domyślny, najechanie kursorem, fokus, stan aktywny i odwiedzony** jasno określone (Przewodnik po stylu jest najlepszym dokumentem do ich określenia).
+* [ ] Alternatywne widoki wszystkich stanów nawigacji (hover, aktywna/bieżąca strona).
 
-### 1.5 - Images / Icons
+### 1.5 - Obrazy / Ikony
 
 ![Images](/images/images.png)
 
-* [ ] A **favicon image** with at least 512px X 512px is provided in PNG format. The generation of all the others Favicons can be easily done with online tools.
+* [ ] **Obraz favicon** z co najmniej 512px X 512px jest dostarczany w formacie PNG. Generowanie wszystkich innych Faviconów można łatwo zrobić za pomocą narzędzi online.
 
-  __Resources:__
+  __Materiały:__
   * [Favicon Generator for all platforms: iOS, Android, PC/Mac...](https://realfavicongenerator.net/)
 
-* [ ] All icons are provided in **SVG format**, each in the same square dimension, in black and in a separated folder.
+* [ ] Wszystkie ikony dostarczone są w **formacie SVG**, każdy w tym samym kwadratowym wymiarze, w kolorze czarnym i w oddzielnym folderze.
 
-  __Resources:__
+  __Materiały:__
   * 🛠 [SVGOMG - SVGO's Missing GUI](https://jakearchibald.github.io/svgomg/)
 
-* [ ] The **name of each icon** starts with `icon-` and is entirely in lowercase (without any space and using dashes to separate each word).
+* [ ] **Nazwa każdej ikony** rozpoczyna się od `icon-` i jest w całości pisana małymi literami (bez spacji i za pomocą myślników oddzielających każde słowo).
 
-__Additional Resources:__
+__Dodatkowe materiały:__
 * 📖 [Essential Image Optimization](https://images.guide/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ powrót do góry](#spis-treści)**
 
-### 1.6 Forms and buttons
+### 1.6 Formularze i przyciski
 
 ![Forms](/images/forms.png)
 
-* [ ] All forms possess a title that can be used as a legend
-* [ ] An example of the **different states of all input fields** were provided (at least focus and inactive/disabled state).
-* [ ] **All error messages** were provided, the text (eventually in a separated document) the position and the color are clearly identifiable in the creatives and consistent. Some messages should be different according to the error.
-  __Resources:__
-  * 📖 [Forms Need Validation – UX Collective](https://uxdesign.cc/forms-need-validation-2ecbccbacea1)
-* [ ] **Indicators of required/optional** fields are provided.
-* [ ] The **primary and secondary buttons** are clearly identifiable and are used following common practices.
-  __Resources:__
-  * 📖 [Primary & Secondary Action Buttons – UX Planet](https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150)
-* [ ] An example of the **different states of a button** were provided (Normal, hover, focused, pressed and inactive state).
-* [ ] Buttons with built-in **loading indicators** are provided and can be applied to any button.
+* [ ] Wszystkie formularze posiadają tytuł, który można wykorzystać jako legendę
+* [ ] Podano przykład **różnych stanów wszystkich pól wejściowych** (przynajmniej fokus i stan nieaktywny / wyłączony).
+* [ ] **Wszystkie komunikaty o błędach** zostały dostarczone, tekst (ewentualnie w oddzielnym dokumencie) pozycja i kolor są wyraźnie widoczne w creatives i spójne. Niektóre komunikaty powinny się różnić w zależności od błędu.
 
-__Additional Resources:__
+  __Materiały:__
+  * 📖 [Forms Need Validation – UX Collective](https://uxdesign.cc/forms-need-validation-2ecbccbacea1)
+* [ ] Pola **indykatorów wymaganych/opcjonalnych** są dostarczone.
+* [ ] **Główne i dodatkowe przyciski** są wyraźnie identyfikowalne i są stosowane zgodnie z powszechnymi praktykami.
+  __Materiały:__
+  * 📖 [Primary & Secondary Action Buttons – UX Planet](https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150)
+* [ ] Przykład **różnych stanów przycisku** podano (stan normalny, aktywowanie, skupienie, naciśnięcie i stan nieaktywny).
+* [ ] Dostępne są przyciski z wbudowanymi **wskaźnikami ładowania**, które można zastosować do dowolnego przycisku.
+
+__Dodatkowe materiały:__
 
 * 📖 [Design Better Forms – UX Collective](https://uxdesign.cc/design-better-forms-96fadca0f49c)
 * 📖 [Design Better Input Fields – UX Collective](https://uxdesign.cc/design-better-input-fields-3d02985a8e24)
@@ -195,15 +197,15 @@ __Additional Resources:__
 * 📖 [How To Design Better Buttons — Smashing Magazine](https://www.smashingmagazine.com/2016/11/a-quick-guide-for-designing-better-buttons/)
 * 📖 [Buttons in Design Systems – EightShapes – Medium](https://medium.com/eightshapes-llc/buttons-in-design-systems-eac3acf7e23)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ powrót do góry](#spis-treści)**
 
-### 1.7 - Responsive Web Design
+### 1.7 - Responsywne projektowanie stron internetowych
 
 ![Responsive](/images/responsive.png)
 
-* [ ] The **mobile version** of the design is provided before or at the same time of the desktop version.
+* [ ] **Wersja mobilna** projektu jest dostępna przed wersją komputerową lub w tym samym czasie.
 
-	> If the “**mobile first**” thinking was not followed by the creative team, some irregularities and inconsistencies may appear between the mobile and the desktop version. Check and flag these issues before starting the development of the project.
+	> Jeśli “**mobile first**” thinking was not followed by the creative team, some irregularities and inconsistencies may appear between the mobile and the desktop version. Check and flag these issues before starting the development of the project.
 * [ ] The **tablet version** of the design in certain cases should be provide too.
 
 ⚠️ *The **pixel perfect** notion is today in a certain way deprecated. Today, it’s impossible to have a design that worked the same facing the multitude of the screen sizes.*
@@ -212,7 +214,7 @@ __Additional Resources:__
 
 * 📖 [Official Google Webmaster Central Blog: Mobile-first Indexing](https://webmasters.googleblog.com/2016/11/mobile-first-indexing.html)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ powrót do góry](#spis-treści)**
 
 ### 1.8 - Style Guide and component approach
 
@@ -220,7 +222,7 @@ __Additional Resources:__
 
 * [ ] All components designed on each page were created with the **component based approach**  (Atomic Design). If not, issues can occur in terms of performance, maintainability of the project...
 
-  __Resources:__
+  __Materiały:__
   * 📖 [Atomic design][16]
   * 📖 [6 Reasons for Component-Based UI Development](https://www.tandemseven.com/technology/6-reasons-component-based-ui-development/)
 
@@ -228,7 +230,7 @@ __Additional Resources:__
 
 ⚠️ *In the case where the Style Guide is missing, it's a good practice to build yourself a [living Style Guide](https://github.com/davidhund/styleguide-generators) to facilitate your work. Some CMS like Drupal, for example, have plugins that allow to develop a living Style Guide using [Pattern Lab](https://drupal-pattern-lab.github.io/).*
 
-__Additional Resources:__
+__Dodatkowe materiały:__
 
 * 📖 [Style Guides – Design + Sketch – Medium](https://medium.com/sketch-app-sources/tagged/style-guides)
 * 📖 [The CodePen Design Patterns and Style Guide](https://codepen.io/guide)
@@ -239,7 +241,7 @@ __Additional Resources:__
 
 Sometimes, the creative team needs to add new pages or modules in an existing project. They should have or create a list of all existing elements and try to use what is already there. Having a Style Guide already created can save hours and ensure consistency of the project.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ powrót do góry](#spis-treści)**
 
 ### 1.9 - Delivery files
 
@@ -254,7 +256,7 @@ Sometimes, the creative team needs to add new pages or modules in an existing pr
 * [ ] The **404 error** (and eventually the page 500 error) page were designed.
 * [ ] All **popins, popups and alert boxes** were designed and can be enable throw layers of compositions.
 
-__Additional Resources:__
+__Dodatkowe materiały:__
 
 * 📖 [Photoshop Etiquette: A Guide to Discernible Web Design](http://photoshopetiquette.com/)
 
@@ -262,7 +264,7 @@ __Additional Resources:__
 
 * [ ] **Layer compositions** are used to show each different pages, if multiple views are provided within the same PSD. It’s an easy way to avoid confusions and check that all elements are correctly organized.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ powrót do góry](#spis-treści)**
 
 ## 2. - Analysis and pre-work phases
 
@@ -279,7 +281,7 @@ Before starting the analysis and the pre-work phases and after receiving the cre
 * __*Is a sitemap / breadcrumb provided to understand the architecture of all pages and their dependencies?*__
 * __*Does the website needs to have retina images?*__
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ powrót do góry](#spis-treści)**
 
 ### 2.1 - Paper analysis
 
@@ -311,7 +313,7 @@ __Additional Resources:__
 * 🛠 [BestOfJS][23]
 
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ powrót do góry](#spis-treści)**
 
 ## 3. - Validation
 
@@ -337,54 +339,59 @@ The validation phase is when everything seems to be ready to be integrated. The 
 
 * [ ] **A naming convention is used** like adding prefixes to differentiate types of images, all images used for background can be prefixed by `bg-`, icons by `icon-`, hero banners by `hero-` or `banner-` and so on.
 
-## 5. - Before production
+## 5. - Przed produkcją
 
-Before launching your website, be sure to review all your pages using the [Front-End Checklist](https://frontendchecklist.io)!
+Przed uruchomieniem witryny sprawdź wszystkie strony za pomocą [Front-End Checklist](https://frontendchecklist.io)!
 
 **[⬆ back to top](#table-of-contents)**
 
 ---
 
-## Translations
+## Tłumaczenia
 
 The Front-End Checklist is also available in other languages. Thanks for all translators and their awesome work!
 
-* 🇨🇳 Chinese: [JohnsenZhou/Front-End-Design-Checklist](https://github.com/JohnsenZhou/Front-End-Design-Checklist)
-* 🇪🇸 Spanish: [eoasakura/Front-End-Design-Checklist](https://github.com/eoasakura/Front-End-Design-Checklist)
+* 🇨🇳 chiński: [JohnsenZhou/Front-End-Design-Checklist](https://github.com/JohnsenZhou/Front-End-Design-Checklist)
+* 🇪🇸 hiszpański: [eoasakura/Front-End-Design-Checklist](https://github.com/eoasakura/Front-End-Design-Checklist)
+* 🇵🇱 polski: [mbiesiad/Front-End-Design-Checklist](https://github.com/mbiesiad/Front-End-Design-Checklist)
 
-## Support
+## Wsparcie
 
-If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
+Jeśli masz jakieś pytania lub sugestie, nie wahaj się skorzystać z Gittera lub Twittera:
 
 * [Give an UP on Product Hunt](https://www.producthunt.com/posts/front-end-design-checklist)
 * [Chat on Gitter](https://gitter.im/Front-End-Checklist][28]/Front-End-Design-Checklist?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 * [Facebook](https://www.facebook.com/frontenddesignchecklist/)
 * [Twitter](https://twitter.com/thedaviddias)
 
-## Author
+## Autor
 
 **[David Dias](https://github.com/thedaviddias)**
 
-## Contributors
+## Współtwórcy
 
-This project exists thanks to all the people who [contribute!](.github/CONTRIBUTING.md)
+Ten projekt istnieje dzięki wszystkim ludziom, którzy [współtworzą!](.github/CONTRIBUTING.md)
 
-## License
+## Licencja
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-All icons are provided by [Icons8](https://icons8.com/)
+Wszystkie ikony są dostarczane przez [Icons8](https://icons8.com/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ powrót do góry](#spis-treści)**
 
 
 [6]:	https://guideguide.me/
 [7]:	https://www.sketchapp.com/docs/canvas/rulers-guides-grids/
 [8]:	https://getbootstrap.com/docs/4.0/layout/grid/
 [9]:	http://flexboxgrid.com/
-[10]: https://css-tricks.com/dont-overthink-it-grids/
+[10]: 	https://css-tricks.com/dont-overthink-it-grids/
 [11]:	https://www.lifewire.com/aco-file-2619477
 [16]:	http://bradfrost.com/blog/post/atomic-web-design/
 [22]:	https://js.libhunt.com/
 [23]:	https://bestof.js.org/
 [28]:	https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist
+
+___________________________________________________________________________
+
+Stworzone przez @[thedaviddias](https://github.com/thedaviddias) polska wersja od @[mbiesiad](https://github.com/mbiesiad)
