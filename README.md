@@ -14,7 +14,7 @@
 	* [1.3 Czcionki i teksty](#13---czcionki-i-teksty)
 	* [1.4 Linki i nawigacja](#14---linki-i-nawigacja)
 	* [1.5 Obrazy / Ikony](#15---obrazy--ikony)
-	* [1.6 Formularze i przyciski](#16---formularze-i-przyciski)
+	* [1.6 Formularze i przyciski](#16-formularze-i-przyciski)
 	* [1.7 Responsywne projektowanie stron internetowych](#17---responsywne-projektowanie-stron-internetowych)
 	* [1.8 Przewodnik po stylach i podejście do komponentów](#18---przewodnik-po-stylach-i-podejście-do-komponentów)
 	* [1.9 Delivery files](#19---delivery-files)
