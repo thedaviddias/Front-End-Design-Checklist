@@ -17,9 +17,9 @@
 	* [1.6 Formularze i przyciski](#16-formularze-i-przyciski)
 	* [1.7 Responsywne projektowanie stron internetowych](#17---responsywne-projektowanie-stron-internetowych)
 	* [1.8 Przewodnik po stylach i podejście do komponentów](#18---przewodnik-po-stylach-i-podejście-do-komponentów)
-	* [1.9 Delivery files](#19---delivery-files)
+	* [1.9 Dostarczane pliki](#19---dostarczane-pliki)
 * **[2. Analizy i etapy przygotowawcze](#2---analizy-i-etapy-przygotowawcze)**
-	* [2.1 Paper analysis](#21---paper-analysis)
+	* [2.1 Analiza wersji papierowej](#21---analiza-wersji-papierowej)
 	* [2.2 Faza przygotowawcza](#22---faza-przygotowawcza)
 * **[3. Walidacja](#3---walidacja)**
 * **[4. Faza rozwoju](#4---faza-rozwoju)**
@@ -243,7 +243,7 @@ Czasami creative team musi dodać nowe strony lub moduły do istniejącego proje
 
 **[⬆ powrót do góry](#spis-treści)**
 
-### 1.9 - Delivery files
+### 1.9 - Dostarczane pliki
 
 ![Delivery files](/images/delivery-files.png)
 
@@ -283,7 +283,7 @@ Przed rozpoczęciem analizy i fazy przygotowawczej oraz po otrzymaniu creative f
 
 **[⬆ powrót do góry](#spis-treści)**
 
-### 2.1 - Paper analysis
+### 2.1 - Analiza wersji papierowej
 
 ![Paper Analysis](/images/analysis.png)
 
