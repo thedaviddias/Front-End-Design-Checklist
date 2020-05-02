@@ -349,7 +349,7 @@ Przed uruchomieniem witryny sprawdź wszystkie strony za pomocą [Front-End Chec
 
 ## Tłumaczenia
 
-The Front-End Checklist is also available in other languages. Thanks for all translators and their awesome work!
+Checklista Frontendu dostępna jest również w innych językach. Dziękujemy wszystkim tłumaczom za ich wspaniałą pracę!
 
 * 🇨🇳 chiński: [JohnsenZhou/Front-End-Design-Checklist](https://github.com/JohnsenZhou/Front-End-Design-Checklist)
 * 🇪🇸 hiszpański: [eoasakura/Front-End-Design-Checklist](https://github.com/eoasakura/Front-End-Design-Checklist)
