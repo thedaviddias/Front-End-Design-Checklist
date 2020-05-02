@@ -205,30 +205,30 @@ __Dodatkowe materiały:__
 
 * [ ] **Wersja mobilna** projektu jest dostępna przed wersją komputerową lub w tym samym czasie.
 
-	> Jeśli “**mobile first**” thinking was not followed by the creative team, some irregularities and inconsistencies may appear between the mobile and the desktop version. Check and flag these issues before starting the development of the project.
-* [ ] The **tablet version** of the design in certain cases should be provide too.
+	> Jeśli podejście “**mobile first**” nie było brane pod uwagę przez creative team, mogą wystąpić pewne nieprawidłowości i niespójności między wersją mobilną, a stacjonarną. Sprawdź i oznacz te problemy przed rozpoczęciem opracowywania projektu.
+	* [ ] Należy również podać **wersję tabletu** projektu w niektórych przypadkach.
 
-⚠️ *The **pixel perfect** notion is today in a certain way deprecated. Today, it’s impossible to have a design that worked the same facing the multitude of the screen sizes.*
+⚠️ *Pojęcie **pixel perfect** jest dziś w pewnym sensie przestarzałe. Dzisiaj nie można mieć projektu, który działałby tak samo w obliczu wielu rozmiarów ekranu.*
 
-__Additional Resources:__
+__Dodatkowe materiały:__
 
 * 📖 [Official Google Webmaster Central Blog: Mobile-first Indexing](https://webmasters.googleblog.com/2016/11/mobile-first-indexing.html)
 
 **[⬆ powrót do góry](#spis-treści)**
 
-### 1.8 - Style Guide and component approach
+### 1.8 - Przewodnik po stylach i podejście do komponentów
 
 ![Styleguide](/images/styleguide.png)
 
-* [ ] All components designed on each page were created with the **component based approach**  (Atomic Design). If not, issues can occur in terms of performance, maintainability of the project...
+* [ ] Wszystkie komponenty zaprojektowane na każdej stronie zostały utworzone za pomocą **component based approach**  (Atomic Design). Jeśli nie, mogą wystąpić problemy związane z wydajnością, utrzymaniem projektu...
 
   __Materiały:__
   * 📖 [Atomic design][16]
   * 📖 [6 Reasons for Component-Based UI Development](https://www.tandemseven.com/technology/6-reasons-component-based-ui-development/)
 
-* [ ] A **Style Guide** needs to be provided listing all elements, components, styles, dimensions. Some boilerplates like [UX Power Tools](https://www.uxpower.tools/) can help saving time and keep consistency in the designs.
+* [ ] Należy dostarczyć **Przewodnik po stylach** zawierający wszystkie elementy, komponenty, style i wymiary. Niektóre boilerplate'y, jak [UX Power Tools](https://www.uxpower.tools/) mogą pomóc zaoszczędzić czas i zachować spójność projektów.
 
-⚠️ *In the case where the Style Guide is missing, it's a good practice to build yourself a [living Style Guide](https://github.com/davidhund/styleguide-generators) to facilitate your work. Some CMS like Drupal, for example, have plugins that allow to develop a living Style Guide using [Pattern Lab](https://drupal-pattern-lab.github.io/).*
+⚠️ *W przypadku, gdy brakuje Przewodnika po stylu, dobrą praktyką jest zbudowanie sobie [living Style Guide](https://github.com/davidhund/styleguide-generators), aby ułatwić ci pracę. Na przykład niektóre CMS, takie jak Drupal, mają wtyczki, które pozwalają opracować aktualizowany przewodnik po stylach [Pattern Lab](https://drupal-pattern-lab.github.io/).*
 
 __Dodatkowe materiały:__
 
@@ -237,9 +237,9 @@ __Dodatkowe materiały:__
 * 📖 [Lonely Planet Travel Guides and Travel Information](http://rizzo.lonelyplanet.com/styleguide/design-elements/colours)
 * 📖 [Styleguide](https://www.yelp.com/styleguide)
 
-#### In the case of an existing project:
+#### W przypadku istniejącego projektu:
 
-Sometimes, the creative team needs to add new pages or modules in an existing project. They should have or create a list of all existing elements and try to use what is already there. Having a Style Guide already created can save hours and ensure consistency of the project.
+Czasami creative team musi dodać nowe strony lub moduły do istniejącego projektu. Powinien mieć lub utworzyć listę wszystkich istniejących elementów i spróbować wykorzystać to, co już istnieje. Utworzenie Przewodnika stylu już może zaoszczędzić godziny i zapewnić spójność projektu.
 
 **[⬆ powrót do góry](#spis-treści)**
 
@@ -247,39 +247,39 @@ Sometimes, the creative team needs to add new pages or modules in an existing pr
 
 ![Delivery files](/images/delivery-files.png)
 
-* [ ] For all websites, the web designer needs to provide at least **2 PSD** (mobile, desktop and eventually tablet) or at least **1 Sketch file** which needs to be delivered with the dimension below (if you have Photoshop CC 2015 and above, I recommend using artboards).
+* [ ] W przypadku wszystkich witryn projektant stron internetowych musi zapewnić co najmniej **2 PSD** (mobile, desktop i ewentualnie tablet) lub przynajmniej **1 Sketch file**, który musi zostać dostarczony z poniższym wymiarem (jeśli masz Photoshop CC 2015 i nowsze wersje, zalecam używanie obszarów roboczych).
 
-	> ℹ️ Some web designers could eventually create multiple PSD corresponding to each components used and import them in a single PSD as “smart layer”. In that case, you’ll have multiple PSD linked to one or two files. In the case of Sketch, since the **libraries** exist since version 47, it is possible to link multiples files with symbols ……..
+	> ℹ️ Niektórzy projektanci stron internetowych mogą ostatecznie utworzyć wiele PSD odpowiadających poszczególnym zastosowanym komponentom i zaimportować je w jednym PSD jako “smart layer”. W takim przypadku będziesz mieć wiele plików PSD połączonych z jednym lub dwoma plikami. W przypadku Sketch, z uwagi że **biblioteki** istnieją od wersji 47, możliwe jest połączenie wielu plików za pomocą symboli ……..
 
-* [ ] The **creative files are cleaned** before delivering to developers (empty and unnecessary layer needs to be removed to avoid large files).
+* [ ] **Pliki graficzne są czyszczone** przed dostarczeniem do programistów (pusta i niepotrzebna warstwa musi zostać usunięta, aby uniknąć dużych plików).
 
-* [ ] The **404 error** (and eventually the page 500 error) page were designed.
-* [ ] All **popins, popups and alert boxes** were designed and can be enable throw layers of compositions.
+* [ ] Strona błędu **404 error** (i ewentualnie błędu page 500 error) została zaprojektowana.
+* [ ] Wszystkie **popins, popups i alert boxes** zostały zaprojektowane i można włączyć wrzucanie warstw kompozycji.
 
 __Dodatkowe materiały:__
 
 * 📖 [Photoshop Etiquette: A Guide to Discernible Web Design](http://photoshopetiquette.com/)
 
-#### Specific rules for PSD file:
+#### Szczegółowe zasady dla pliku PSD:
 
-* [ ] **Layer compositions** are used to show each different pages, if multiple views are provided within the same PSD. It’s an easy way to avoid confusions and check that all elements are correctly organized.
+* [ ] **Layer compositions** są używane do wyświetlania każdej strony, jeśli w tym samym PSD zapewniono wiele widoków. To łatwy sposób na uniknięcie zamieszania i sprawdzenie, czy wszystkie elementy są poprawnie zorganizowane.
 
 **[⬆ powrót do góry](#spis-treści)**
 
-## 2. - Analysis and pre-work phases
+## 2. - Analizy i etapy przygotowawcze
 
 ![Analysis and phases](/images/phases.png)
 
-Before starting the analysis and the pre-work phases and after receiving the creative files, you need to check some important elements:
+Przed rozpoczęciem analizy i fazy przygotowawczej oraz po otrzymaniu creative files należy sprawdzić kilka ważnych elementów:
 
-* __*Which version of Photoshop, Sketch is used?*__
-  Some features are specific to some versions of Photoshop or Sketch. It is important to flag any issue regarding this as soon as possible.
-* __*Is the width of each PSD or artboard correct?*__
-  In case some space is added on each side of the design, check the exact width of the website.
-* __*Are the creatives using too much “box-shadow”, “linear or radial gradient”…?*__
-  Don’t forget the .... Effect which can have impacts on the browser painting performance.
-* __*Is a sitemap / breadcrumb provided to understand the architecture of all pages and their dependencies?*__
-* __*Does the website needs to have retina images?*__
+* __*Która wersja programu Photoshop, Sketch jest używana?*__
+  Niektóre funkcje są specyficzne dla niektórych wersji Photoshopa lub Sketch. Ważne jest, aby jak najszybciej zgłosić każdą kwestię dotyczącą tego.
+* __*Czy szerokość każdego PSD lub obszaru roboczego jest poprawna?*__
+  W przypadku dodania miejsca po każdej stronie projektu, sprawdź dokładną szerokość strony internetowej.
+* __*Czy creatives używają zbyt dużo “box-shadow”, “linear lub radial gradient”…?*__
+  Nie zapomnij że .... Efekt, który może mieć wpływ na wydajność malowania przeglądarki.
+* __*Czy zapewniono mapę witryny / menu nawigacyjne w celu zrozumienia architektury wszystkich stron i ich zależności?*__
+* __*Czy strona musi mieć obrazy retina?*__
 
 **[⬆ powrót do góry](#spis-treści)**
 
@@ -287,27 +287,27 @@ Before starting the analysis and the pre-work phases and after receiving the cre
 
 ![Paper Analysis](/images/analysis.png)
 
-It is recommended **printing** some (or all) of the pages you have on an A3 format (or A4 if you don’t have this format). Because of the height of the page. you’ll probably need to print some designs on multiple pages.
+Zaleca się **drukowanie** niektórych (lub wszystkich) stron w formacie A3 (lub A4, jeśli nie masz tego formatu). Ze względu na wysokość strony. prawdopodobnie będziesz musiał wydrukować niektóre projekty na wielu stronach.
 
-I can’t imagine a better way to start than analysing creatives on a paper with a pencil (or different colourful pencils chosen to highlight different type of information).
+Nie mogę sobie wyobrazić lepszego sposobu na rozpoczęcie niż analizowanie kreacji na papierze ołówkiem (lub innymi kolorowymi ołówkami wybranymi w celu wyróżnienia różnego rodzaju informacji).
 
-1. Define the **structure of the pages**, the headers, the sections, the articles, main, footer outlining these on at least one printed page.
+1. Zdefiniuj **strukturę stron**, nagłówki, sekcje, artykuły, główne, stopki, opisując je na co najmniej jednej wydrukowanej stronie.
 
-2. Find all the **headings** that structured a page, ensure the `H1` is not on the logo and that the logical order is followed. Most of the time, the H1 for the homepage will be hidden with CSS but needs to keep its legitimate meaning. That analysis should be done with the help of a SEO specialist in case you have one in your team.
+2. Znajdź wszystkie **nagłówki**, które ustrukturyzowały stronę, upewnij się, że `H1` nie ma na logo i że przestrzegana jest logiczna kolejność. Przez większość czasu H1 strony głównej będzie ukryte za pomocą CSS, ale musi zachować swoje uzasadnione znaczenie. Tę analizę należy przeprowadzić przy pomocy specjalisty SEO, jeśli masz go w zespole.
 
-3. Try to find and regroup **similar components** giving them an individual name regarding their functionality and not just their context. For example, naming a tab system “
+3. Spróbuj znaleźć i zgrupować **podobne komponenty**, nadając im indywidualną nazwę dotyczącą ich funkcjonalności, a nie tylko kontekstu. Na przykład nazywanie systemu kart “
 
-4. Most of the creative elements can be **done using CSS**. Today, it is not recommended to create any layout element using images. Any simple graphical element like buttons or borders should be done in CSS to avoid performance or scalability issues.
+4. Większość creative elements można **wykonać za pomocą CSS**. Dzisiaj nie jest zalecane tworzenie żadnego elementu układu za pomocą obrazów. Każdy prosty element graficzny, taki jak przyciski lub obramowania, powinien być wykonywany w CSS, aby uniknąć problemów z wydajnością lub skalowalnością.
 
-5. Find some **possible lack of coherence**, in case a Styleguide was not provided by the creative team, it’s your responsibility to ensure that every graphic element belong to a possible category (Buttons, Typography, Sliders…). It’ll help you to create your own CSS / Sass architecture or to identify which component you’ll need from an identified CSS Framework.
+5. Znajdź jakiś **możliwy brak spójności**, w przypadku gdy zespół twórców nie zapewnił Przewodnika po stylach, twoim obowiązkiem jest upewnić się, że każdy element graficzny należy do możliwej kategorii (Przyciski, Typografia, Suwaki…). Pomoże ci to stworzyć własną architekturę CSS / Sass lub zidentyfikować potrzebny komponent ze zidentyfikowanego frameworka CSS.
 
-⚠️ *After the paper analysis phase, you can invite the creative team to use a tool like [InVision](https://www.invisionapp.com/), to facilitate the communication and exchange between the creative team and the developers. The possibility to comment directly on pages can be a time-saver and allow to keep a history of modifications and decisions.*
+⚠️ *Po fazie analizy papierowej możesz zaprosić zespół kreatywny do skorzystania z takiego narzędzia, jak [InVision](https://www.invisionapp.com/), w celu ułatwienia komunikacji i wymiany między zespołem kreatywnym a programistami. Możliwość komentowania bezpośrednio na stronach może być oszczędnością czasu i pozwala zachować historię zmian i decyzji.*
 
-### 2.2 - Pre-development phase
+### 2.2 - Faza przygotowawcza
 
-* [ ] According to the specifications, **plugins needed were defined** in an early stage. Having a pre-list of possible plugins before starting the development can help the developer to stay focus and not spend too much time in doing research during the development phase. Obviously, some plugins may not perfectly fit and will be changed accordingly.
+* [ ] Zgodnie ze specyfikacjami **potrzebne wtyczki zostały zdefiniowane** na wczesnym etapie. Posiadanie wstępnej listy możliwych wtyczek przed rozpoczęciem programowania może pomóc deweloperowi utrzymać koncentrację i nie spędzać zbyt wiele czasu na badaniach w fazie programowania. Oczywiście niektóre wtyczki mogą nie pasować idealnie i zostaną odpowiednio zmienione.
 
-__Additional Resources:__
+__Dodatkowe materiały:__
 
 * 🛠 [Awesome JS][22]
 * 🛠 [BestOfJS][23]
@@ -315,18 +315,18 @@ __Additional Resources:__
 
 **[⬆ powrót do góry](#spis-treści)**
 
-## 3. - Validation
+## 3. - Walidacja
 
-The validation phase is when everything seems to be ready to be integrated. The client, in general, validate the creatives without waiting for any approval from the technical team. As exposed in the Design Checklist, it is essential that developers ensure the quality of the delivery before starting to code.
+Faza walidacji ma miejsce, gdy wszystko wydaje się być gotowe do zintegrowania. Ogólnie rzecz biorąc, klient sprawdza poprawność kreacji bez czekania na zgodę zespołu technicznego. Zgodnie z listą kontrolną projektu deweloperzy muszą zapewnić jakość dostarczenia przed rozpoczęciem kodowania.
 
-## 4. - Development phase
+## 4. - Faza rozwoju
 
-* [ ] All **medias can be cut and saved** before starting the development phase. That can help you to avoid back and forth between your creative software and your code editor.
+* [ ] Wszystkie **media można wyciąć i zapisać** przed rozpoczęciem fazy rozwoju. Pomoże ci to uniknąć sytuacji, w których oprogramowanie twórcze i edytor kodu będą występować pomiędzy.
 
-* [ ] **The image folder has a clear architecture** where you  arranged the layout's images. It is important to stay consistent between projects in general. Defining a structure for that folder and a naming convention can be helpful.
+* [ ] **Folder obrazów ma przejrzystą architekturę**, w której rozmieszczono obrazy układu. Ważne jest, aby ogólnie zachować spójność między projektami. Pomocne może być zdefiniowanie struktury tego folderu i konwencji nazewnictwa.
 
 
-  You can find an example of a possible structure with prefixes used to recognise each image appurtenance.
+  Możesz znaleźć przykład możliwej struktury z prefiksami używanymi do rozpoznawania każdego wyposażenia obrazu.
 
 ```bash
 .
@@ -337,7 +337,7 @@ The validation phase is when everything seems to be ready to be integrated. The 
     └── layout
 ```
 
-* [ ] **A naming convention is used** like adding prefixes to differentiate types of images, all images used for background can be prefixed by `bg-`, icons by `icon-`, hero banners by `hero-` or `banner-` and so on.
+* [ ] **Stosowana jest konwencja nazewnictwa**, podobnie jak dodawanie prefiksów w celu rozróżnienia typów obrazów, wszystkie obrazy użyte w tle mogą być poprzedzone przez `bg-`, ikony przez `icon-`, hero banners przez `hero-` lub `banner-` i tak dalej.
 
 ## 5. - Przed produkcją
 
