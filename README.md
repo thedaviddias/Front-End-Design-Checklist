@@ -10,20 +10,20 @@
 ## Spis treści
 * **[1. Wymagania projektowe](#1---wymagania-projektowe)**
 	* [1.1 Grid system](#11---grid-system)
-	* [1.2 Colors](#12---colors)
-	* [1.3 Fonts and texts](#13---fonts-and-texts)
-	* [1.4 Links and navigation](#14---links-and-navigation)
-	* [1.5 Images / Icons](#15---images--icons)
-	* [1.6 Forms and buttons](#16---forms-and-buttons)
-	* [1.7 Responsive Web Design](#17---responsive-web-design)
-	* [1.8 Style Guide and component approach](#18---style-guide-and-component-approach)
+	* [1.2 Kolory](#12---kolory)
+	* [1.3 Czcionki i teksty](#13---czcionki-i-teksty)
+	* [1.4 Linki i nawigacja](#14---linki-i-nawigacja)
+	* [1.5 Obrazy / Ikony](#15---obrazy--ikony)
+	* [1.6 Formularze i przyciski](#16---formularze-i-przyciski)
+	* [1.7 Responsywne projektowanie stron internetowych](#17---responsywne-projektowanie-stron-internetowych)
+	* [1.8 Przewodnik po stylach i podejście do komponentów](#18---przewodnik-po-stylach-i-podejście-do-komponentów)
 	* [1.9 Delivery files](#19---delivery-files)
-* **[2. Analysis and pre-work phases](#2---analysis-and-pre-work-phases)**
+* **[2. Analizy i etapy przygotowawcze](#2---analizy-i-etapy-przygotowawcze)**
 	* [2.1 Paper analysis](#21---paper-analysis)
-	* [2.2 Pre-development phase](#22---pre-development-phase)
-* **[3. Validation](#3---validation)**
-* **[4. Development phase](#4---development-phase)**
-* **[5. Before production](#5---before-production)**
+	* [2.2 Faza przygotowawcza](#22---faza-przygotowawcza)
+* **[3. Walidacja](#3---walidacja)**
+* **[4. Faza rozwoju](#4---faza-rozwoju)**
+* **[5. Przed produkcją](#5---przed-produkcją)**
 
 ---
 
