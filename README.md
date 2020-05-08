@@ -351,6 +351,7 @@ The Front-End Checklist is also available in other languages. Thanks for all tra
 
 * 🇨🇳 Chinese: [JohnsenZhou/Front-End-Design-Checklist](https://github.com/JohnsenZhou/Front-End-Design-Checklist)
 * 🇪🇸 Spanish: [eoasakura/Front-End-Design-Checklist](https://github.com/eoasakura/Front-End-Design-Checklist)
+* 🇵🇱 Polish: [mbiesiad/Front-End-Design-Checklist](https://github.com/mbiesiad/Front-End-Design-Checklist)
 
 ## Support
 
