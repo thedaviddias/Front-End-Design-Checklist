@@ -9,7 +9,7 @@
 
 ## Table of Contents
 * **[1. Design requirements](#1---design-requirements)**
-	* [1.1 Grid system](#11---grid-system)
+	* [1.1 Grid system and Flexbox](#11---grid-system)
 	* [1.2 Colors](#12---colors)
 	* [1.3 Fonts and texts](#13---fonts-and-texts)
 	* [1.4 Links and navigation](#14---links-and-navigation)
@@ -53,7 +53,7 @@ You can share that checklist to Web Designers to ensure time will be saved at th
 
 Designing a website or a webapp requires following some rules and taking into consideration that the project is not only a graphic project but a web project too. The next sections are crucial for any web project.
 
-### 1.1 - Grid system
+### 1.1 - Grid system and Flexbox
 
 ![Grid system](/images/grid-system.png)
 
@@ -82,6 +82,10 @@ Designing a website or a webapp requires following some rules and taking into co
 ```
 
 ⚠️ *If you want to ensure that the grid and the width of the devices are respected, you may want to generate yourself a PSD template and that you will send it to the Web Designer.*
+Flexbox-
+Since flexbox is a whole module and not a single property, it involves a lot of things including its whole set of properties. Some of them are meant to be set on the container (parent element, known as “flex container”) whereas the others are meant to be set on the children (said “flex items”).
+
+If “regular” layout is based on both block and inline flow directions, the flex layout is based on “flex-flow directions”. 
 
 __Additional Resources:__
 
