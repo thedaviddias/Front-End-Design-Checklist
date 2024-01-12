@@ -58,7 +58,7 @@ Designing a website or a webapp requires following some rules and taking into co
 ![Grid system](/images/grid-system.png)
 
 * [ ] A **grid** is explicitly provided in the design, and the details of the grid are present in the technical specification (width, gutters, number of columns…). The Web Designer can keep the grid in a transparent layer and use it on all his project.
-	> ℹ️ [Guide Guide][6] is a plugin for Photoshop that can help you easily build your grid.
+	> ℹ️ [GuideGuide][6] is a plugin for many design tools that can help you easily build your grid.
 
 	> ℹ️ On Sketch, you can use the integrated “[Make Grid Tool][7]” to design your desired grid.
 
