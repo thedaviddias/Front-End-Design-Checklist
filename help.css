@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.faqs {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq {
+    margin-bottom: 15px;
+}
+
+.contact-form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2c3e50;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
