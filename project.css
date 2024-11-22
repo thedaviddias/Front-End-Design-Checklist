@@ -1,0 +1,287 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+}
+
+body {
+  background-color: #dce4dc;
+  color: #333333;
+  line-height: 1.6;
+text-align:center;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1343e3;
+  padding: 1rem;
+  color: #b10f0f;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #6a11cb, #2575fc);
+  color: #fff;
+  background: url("hlo.jpeg") no-repeat center 
+center/cover;   height: 100vh;   display: flex;   justify-content: center;    align-items: center;    text-align:center;   color: #050101;   flex-direction: column;   padding: 20px;  
+} 
+
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+
+.card-overlay {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card-overlay .card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-overlay img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.card-overlay h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+
+.popular-courses {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.popular-courses h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.card-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+
+}
+
+.card-grid .card {
+  background-color: #fff;
+  border-radius: 8px;
+ 
+  width: 250px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-grid img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.card-grid p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+
+.course-features {
+  background-color: #eee;
+  padding: 2rem;
+  text-align: center;
+}
+
+.course-features h2 {
+  margin-bottom: 1.5rem;
+}
+
+
+
+.course-features li {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+
+.register {
+  background-color: #fff;
+  padding: 3rem;
+  text-align: center;
+}
+
+.register h2 {
+  margin-bottom: 1.5rem;
+}
+
+.register form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register button {
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor:pointer;
+}
+
+.register button:hover {
+  background-color: #555;
+}
+
+
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.testimonials h2 {
+  margin-bottom: 2rem;
+}
+
+.testimonial-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+ 
+  width: 200px;
+}
+
+.testimonial-card p {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 0.5rem;
+  
+}
+
+.footer-links a:hover {
+  color: #ddd;
+}
+
+.newsletter input[type="email"] {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 0.5rem;
+}
+
+.newsletter button {
+  padding: 0.5rem 1rem;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  
+ 
+}
+
+.newsletter button:hover {
+  background-color: #555;
+}
+
+.socials a {
+  color: #fff;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  color: #e40d0d;
+}
+
+  
